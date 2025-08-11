@@ -1,0 +1,35 @@
+{
+  "security": {
+    "execution_timeout": 10.0,
+    "block_dangerous_commands": true,
+    "require_confirmation_for_risky": true,
+    "custom_dangerous_patterns": [],
+    "custom_risky_patterns": [],
+    "log_executed_commands": true
+  },
+  "ai": {
+    "provider": "gemini",
+    "api_key": "XYZ",
+    "model_name": "gemini-2.5-flash",
+    "max_suggestions": 6,
+    "temperature": 0.3,
+    "max_tokens": 1000,
+    "system_prompt": "You are a helpful terminal assistant. Generate safe, practical command suggestions based on user queries. Always prioritize security."
+  },
+  "ui": {
+    "theme": "dark",
+    "show_progress_bars": true,
+    "show_safety_indicators": true,
+    "default_tab": "command_mode",
+    "font_size_multiplier": 1.0
+  },
+  "logging": {
+    "enabled": true,
+    "level": "INFO",
+    "log_file": "terminal_assistant.log",
+    "max_file_size_mb": 10,
+    "backup_count": 3
+  },
+  "app_name": "Terminal Assistant",
+  "version": "1.0.0"
+}

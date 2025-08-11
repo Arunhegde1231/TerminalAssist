@@ -1,0 +1,17 @@
+# Core dependencies
+textual>=0.41.0
+rich>=13.0.0
+
+# Optional AI/LLM integrations (uncomment as needed)
+openai>=1.0.0          # For OpenAI GPT integration
+google-generativeai
+ollama>=0.1.0          # For local Ollama integration
+# transformers>=4.35.0   # For Hugging Face models
+
+# Development dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+protobuf~=5.29.5
